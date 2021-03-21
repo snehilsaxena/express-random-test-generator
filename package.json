@@ -10,8 +10,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.21.1",
     "express": "^4.17.1",
     "fs": "0.0.1-security",
-    "pdf-poppler": "^0.2.1"
+    "pdf-poppler": "^0.2.1",
+    "pdfmake": "^0.1.70"
   }
 }

@@ -1,9 +1,15 @@
 const express = require('express');
-const fs = require( 'fs' );
+// const fs = require( 'fs' );
 const app = express();
+const pdfMaker = require('./pdfMaker');
 // const router = express.Router();
 
 app.get('', (req, res, next) => {
+    
+    pdfMaker.pdf();
+    // res.setHeader('Content-type', 'application/pdf')
+    // res.setHeader('Content-disposition', 'inline; filename="Example.pdf"')
+    // res.sendFile('./abc.pdf');
     res.send('Completed');
     // (async ()=>{
     //     try {
