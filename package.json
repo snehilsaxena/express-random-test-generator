@@ -13,7 +13,9 @@
     "axios": "^0.21.1",
     "express": "^4.17.1",
     "fs": "0.0.1-security",
+    "pdf-merger-js": "^3.1.0",
     "pdf-poppler": "^0.2.1",
+    "pdfjs": "^2.4.2",
     "pdfmake": "^0.1.70",
     "xlsx": "^0.16.9"
   }

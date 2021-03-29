@@ -85,14 +85,15 @@ module.exports.pdf = async (req, res, next) => {
                 const file = reader.readFile(config[i]['path']);
                 const data = file.Sheets[file.SheetNames[0]];
                 // console.log(data);
-                const randNo = Math.floor(Math.random() * config[i]['maxQue']) + 1;
-                console.log(randNo);
+                let randNo = Math.floor(Math.random() * config[i]['maxQue']) + 1;
+                // console.log(randNo);
+                randNo -= 1;
 
-                const queText = config[i]['questionPrefix'] + data['B' + (1 + randNo * 4)] + config[i]['questionSuffix'];
-                const queOpt1 = 'a. ' + data['C' + (2 + randNo * 4)];
-                const queOpt2 = 'b. ' + data['C' + (3 + randNo * 4)];
-                const queOpt3 = 'c. ' + data['G' + (2 + randNo * 4)];
-                const queOpt4 = 'd. ' + data['G' + (3 + randNo * 4)];
+                const queText = config[i]['questionPrefix'] + data['B' + (1 + randNo * 4)].v + config[i]['questionSuffix'];
+                const queOpt1 = 'a. ' + data['C' + (2 + randNo * 4)].v;
+                const queOpt2 = 'b. ' + data['C' + (3 + randNo * 4)].v;
+                const queOpt3 = 'c. ' + data['G' + (2 + randNo * 4)].v;
+                const queOpt4 = 'd. ' + data['G' + (3 + randNo * 4)].v;
                 // console.log(queOpt1);
 
 
