@@ -3,13 +3,14 @@ const app = express();
 const pdfMaker = require('./pdfMaker');
 const pdfMerger = require('./pdfMerger');
 
-app.get('', (req, res, next) => {
-    pdfMaker.pdf();
+app.get('/merge', (req, res, next) => {
+    pdfMerger.pdf();
     res.send('Completed');
 });
 
-app.get('/merge', (req, res, next) => {
-    pdfMerger.pdf();
+app.get('/:itr', (req, res, next) => {
+    console.log(req.params);
+    pdfMaker.pdf(req.params['itr']);
     res.send('Completed');
 });
 

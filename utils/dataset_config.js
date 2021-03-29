@@ -1,18 +1,266 @@
 module.exports.config = [
-    // {
-    //     path: "./dataset/text_based/SetRelationFunction 1.xlsx",
-    //     figureBased: false,
-    //     maxQue: 9,
-    //     marks: 1,
-    //     questionPrefix: "Q.1) ",
-    //     questionSuffix: "     [MCQ]"
-    // },
+    {
+        path: "./dataset/text_based/SetRelationFunction 1.xlsx",
+        figureBased: false,
+        maxQue: 9,
+        marks: 1,
+        questionPrefix: "Q.1) ",
+        questionSuffix: "     [MCQ]"
+    },
+    {
+        path: "./dataset/text_based/SetRelationFunction 2.xlsx",
+        figureBased: false,
+        maxQue: 11,
+        marks: 1,
+        questionPrefix: "Q.2) ",
+        questionSuffix: "     [MCQ]"
+    },
+    {
+        path: "./dataset/text_based/Mathematical reasoning 1.xlsx",
+        figureBased: false,
+        maxQue: 20,
+        marks: 1,
+        questionPrefix: "Q.3) ",
+        questionSuffix: "     [MCQ]"
+    },
+    {
+        path: "./dataset/text_based/Mathematical reasoning 2.xlsx",
+        figureBased: false,
+        maxQue: 18,
+        marks: 1,
+        questionPrefix: "Q.4) ",
+        questionSuffix: "     [MCQ]"
+    },
     {
         path: "./dataset/text_based/blood relations.xlsx",
         figureBased: false,
-        maxQue: 25,
+        maxQue: 21,
         marks: 1,
         questionPrefix: "Q.5) ",
+        questionSuffix: "     [MCQ]"
+    },
+    {
+        path: "./dataset/text_based/coding decoding.xlsx",
+        figureBased: false,
+        maxQue: 35,
+        marks: 1,
+        questionPrefix: "Q.6) ",
+        questionSuffix: "     [MCQ]"
+    },
+    {
+        path: "./dataset/text_based/direction sense test.xlsx",
+        figureBased: false,
+        maxQue: 27,
+        marks: 1,
+        questionPrefix: "Q.7) ",
+        questionSuffix: "     [MCQ]"
+    },
+    {
+        path: "./dataset/text_based/syllogism.xlsx",
+        figureBased: false,
+        maxQue: 10,
+        marks: 1,
+        questionPrefix: "Q.8) ",
+        questionSuffix: "     [MCQ]"
+    },
+    {
+        path: "./dataset/text_based/area.xlsx",
+        figureBased: false,
+        maxQue: 40,
+        marks: 1,
+        questionPrefix: "Q.9) ",
+        questionSuffix: "     [MCQ]"
+    },
+    {
+        path: "./dataset/text_based/volume.xlsx",
+        figureBased: false,
+        maxQue: 39,
+        marks: 1,
+        questionPrefix: "Q.10) ",
+        questionSuffix: "     [MCQ]"
+    },
+    {
+        path: "./dataset/text_based/calender.xlsx",
+        figureBased: false,
+        maxQue: 30,
+        marks: 1,
+        questionPrefix: "Q.11) ",
+        questionSuffix: "     [MCQ]"
+    },
+    {
+        path: "./dataset/text_based/clock.xlsx",
+        figureBased: false,
+        maxQue: 30,
+        marks: 1,
+        questionPrefix: "Q.12) ",
+        questionSuffix: "     [MCQ]"
+    },
+    {
+        path: "./dataset/text_based/number system.xlsx",
+        figureBased: false,
+        maxQue: 40,
+        marks: 1,
+        questionPrefix: "Q.13) ",
+        questionSuffix: "     [MCQ]"
+    },
+    {
+        path: "./dataset/text_based/number series.xlsx",
+        figureBased: false,
+        maxQue: 30,
+        marks: 1,
+        questionPrefix: "Q.14) ",
+        questionSuffix: "     [NAT]"
+    },
+    {
+        path: "./dataset/text_based/average.xlsx",
+        figureBased: false,
+        maxQue: 40,
+        marks: 1,
+        questionPrefix: "Q.15) ",
+        questionSuffix: "     [MCQ]"
+    },
+    {
+        path: "./dataset/text_based/ratio and proportion.xlsx",
+        figureBased: false,
+        maxQue: 30,
+        marks: 1,
+        questionPrefix: "Q.16) ",
+        questionSuffix: "     [MCQ]"
+    },
+    {
+        path: "./dataset/text_based/problem on ages.xlsx",
+        figureBased: false,
+        maxQue: 30,
+        marks: 1,
+        questionPrefix: "Q.17) ",
+        questionSuffix: "     [MCQ]"
+    },
+    {
+        path: "./dataset/text_based/simple interest.xlsx",
+        figureBased: false,
+        maxQue: 30,
+        marks: 1,
+        questionPrefix: "Q.18) ",
+        questionSuffix: "     [MCQ]"
+    },
+    {
+        path: "./dataset/text_based/compound interest.xlsx",
+        figureBased: false,
+        maxQue: 40,
+        marks: 1,
+        questionPrefix: "Q.19) ",
+        questionSuffix: "     [MCQ]"
+    },
+    {
+        path: "./dataset/text_based/profit and loss.xlsx",
+        figureBased: false,
+        maxQue: 40,
+        marks: 1,
+        questionPrefix: "Q.20) ",
+        questionSuffix: "     [MCQ]"
+    },
+    {
+        path: "./dataset/text_based/ancient+buddhist.xlsx",
+        figureBased: false,
+        maxQue: 80,
+        marks: 1,
+        questionPrefix: "Q.21) ",
+        questionSuffix: "     [MCQ]"
+    },
+    {
+        path: "./dataset/text_based/hindu temple.xlsx",
+        figureBased: false,
+        maxQue: 40,
+        marks: 1,
+        questionPrefix: "Q.22) ",
+        questionSuffix: "     [MCQ]"
+    },
+    {
+        path: "./dataset/text_based/islamic+mughal.xlsx",
+        figureBased: false,
+        maxQue: 80,
+        marks: 1,
+        questionPrefix: "Q.23) ",
+        questionSuffix: "     [MCQ]"
+    },
+    {
+        path: "./dataset/text_based/colonial.xlsx",
+        figureBased: false,
+        maxQue: 40,
+        marks: 1,
+        questionPrefix: "Q.24) ",
+        questionSuffix: "     [MCQ]"
+    },
+    {
+        path: "./dataset/text_based/indian modern.xlsx",
+        figureBased: false,
+        maxQue: 40,
+        marks: 1,
+        questionPrefix: "Q.25) ",
+        questionSuffix: "     [MCQ]"
+    },
+    {
+        path: "./dataset/text_based/indian comtemporary.xlsx",
+        figureBased: false,
+        maxQue: 40,
+        marks: 1,
+        questionPrefix: "Q.26) ",
+        questionSuffix: "     [MCQ]"
+    },
+    {
+        path: "./dataset/text_based/ancient+egyptian.xlsx",
+        figureBased: false,
+        maxQue: 80,
+        marks: 1,
+        questionPrefix: "Q.27) ",
+        questionSuffix: "     [MCQ]"
+    },
+    {
+        path: "./dataset/text_based/greek.xlsx",
+        figureBased: false,
+        maxQue: 40,
+        marks: 1,
+        questionPrefix: "Q.28) ",
+        questionSuffix: "     [MCQ]"
+    },
+    {
+        path: "./dataset/text_based/roman.xlsx",
+        figureBased: false,
+        maxQue: 40,
+        marks: 1,
+        questionPrefix: "Q.29) ",
+        questionSuffix: "     [MCQ]"
+    },
+    {
+        path: "./dataset/text_based/byzentine+romanesque.xlsx",
+        figureBased: false,
+        maxQue: 80,
+        marks: 1,
+        questionPrefix: "Q.30) ",
+        questionSuffix: "     [MCQ]"
+    },
+    {
+        path: "./dataset/text_based/gothic.xlsx",
+        figureBased: false,
+        maxQue: 40,
+        marks: 1,
+        questionPrefix: "Q.31) ",
+        questionSuffix: "     [MCQ]"
+    },
+    {
+        path: "./dataset/text_based/modern.xlsx",
+        figureBased: false,
+        maxQue: 40,
+        marks: 1,
+        questionPrefix: "Q.32) ",
+        questionSuffix: "     [MCQ]"
+    },
+    {
+        path: "./dataset/text_based/post modern.xlsx",
+        figureBased: false,
+        maxQue: 40,
+        marks: 1,
+        questionPrefix: "Q.33) ",
         questionSuffix: "     [MCQ]"
     },
     {
@@ -258,6 +506,62 @@ module.exports.config = [
         extension: ".jpg"
     },
     {
+        path: "./dataset/text_based/colour 1.xlsx",
+        figureBased: false,
+        maxQue: 20,
+        marks: 2,
+        questionPrefix: "Q.56) ",
+        questionSuffix: "     [MCQ]"
+    },
+    {
+        path: "./dataset/text_based/colour 2.xlsx",
+        figureBased: false,
+        maxQue: 20,
+        marks: 2,
+        questionPrefix: "Q.57) ",
+        questionSuffix: "     [MCQ]"
+    },
+    {
+        path: "./dataset/text_based/design elements and principles 1.xlsx",
+        figureBased: false,
+        maxQue: 20,
+        marks: 2,
+        questionPrefix: "Q.58) ",
+        questionSuffix: "     [MCQ]"
+    },
+    {
+        path: "./dataset/text_based/design elements and principles 2.xlsx",
+        figureBased: false,
+        maxQue: 20,
+        marks: 2,
+        questionPrefix: "Q.59) ",
+        questionSuffix: "     [MCQ]"
+    },
+    {
+        path: "./dataset/text_based/acronym in architecture 1.xlsx",
+        figureBased: false,
+        maxQue: 20,
+        marks: 2,
+        questionPrefix: "Q.60) ",
+        questionSuffix: "     [MCQ]"
+    },
+    {
+        path: "./dataset/text_based/acronym in architecture 2.xlsx",
+        figureBased: false,
+        maxQue: 20,
+        marks: 2,
+        questionPrefix: "Q.61) ",
+        questionSuffix: "     [MCQ]"
+    },
+    {
+        path: "./dataset/text_based/awards in architecture.xlsx",
+        figureBased: false,
+        maxQue: 34,
+        marks: 2,
+        questionPrefix: "Q.62) ",
+        questionSuffix: "     [MCQ]"
+    },
+    {
         path: "./dataset/figure_based/top to front view 1/",
         figureBased: true,
         maxQue: 20,
@@ -340,6 +644,28 @@ module.exports.config = [
         maxQue: 20,
         marks: 2,
         question: "Q.70) Identify which of the options given below can be 3D view of the object whose top view is shown in the question image below [MCQ]",
+        nameFormat: 0,
+        namePrefix: "0",
+        nameSuffix: "",
+        extension: ".jpg"
+    },
+    {
+        path: "./dataset/figure_based/famous buildings/",
+        figureBased: true,
+        maxQue: 36,
+        marks: 2,
+        question: "Q.71) Identify the name and place of the building given in the image below [MCQ]",
+        nameFormat: 0,
+        namePrefix: "0",
+        nameSuffix: "",
+        extension: ".jpg"
+    },
+    {
+        path: "./dataset/figure_based/impt material/",
+        figureBased: true,
+        maxQue: 34,
+        marks: 2,
+        question: "Q.72) identify the material given in the image below also specify where it has been used or where it can be used. [MCQ]",
         nameFormat: 0,
         namePrefix: "0",
         nameSuffix: "",
@@ -509,8 +835,18 @@ module.exports.config = [
         namePrefix: "11_surface_development_",
         nameSuffix: "",
         extension: ".jpg"
+    },
+    {
+        path: "./dataset/figure_based/famous buildings/",
+        figureBased: true,
+        maxQue: 36,
+        marks: 2,
+        question: "Q.95) Write down three main architectural component of the building given in the image below ",
+        nameFormat: 0,
+        namePrefix: "0",
+        nameSuffix: "",
+        extension: ".jpg"
     }
-
 ]
 
 /*
