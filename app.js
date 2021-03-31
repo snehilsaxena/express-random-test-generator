@@ -9,7 +9,7 @@ app.get('/merge', (req, res, next) => {
 });
 
 app.get('/:itr', (req, res, next) => {
-    console.log(req.params);
+    // console.log(req.params);
     pdfMaker.pdf(req.params['itr']);
     res.send('Completed');
 });

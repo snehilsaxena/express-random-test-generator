@@ -12,7 +12,10 @@ module.exports.pdf = async (req, res, next) => {
     const randNo2 = [];
     randNo2.push(Math.floor(Math.random() * 20) + 1);
 
-    console.log(randNo);
+    const randNo3 = [];
+    randNo3.push(Math.floor(Math.random() * 20) + 1);
+
+    console.log(randNo, randNo2, randNo3);
 
 
     (async () => {
@@ -21,7 +24,8 @@ module.exports.pdf = async (req, res, next) => {
         merger.add('./file-2.pdf');  
         merger.add('./file-3.pdf');  
         merger.add('./file-4.pdf');  
-        merger.add('./file-5.pdf');  
+        // merger.add('./file-5.pdf'); 
+        merger.add('./dataset/pdf_based/visual gk questions.pdf', randNo3); 
         merger.add('./file-6.pdf');  
         merger.add('./dataset/pdf_based/PREFERENTIAL BASED QUESTIONS for mock test.pdf', randNo);
         merger.add('./dataset/pdf_based/prefer 2 questions.pdf', randNo2); 
