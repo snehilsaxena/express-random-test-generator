@@ -146,7 +146,7 @@ module.exports.config = [
     {
         path: "./dataset/text_based/compound interest.xlsx",
         figureBased: false,
-        maxQue: 40,
+        maxQue: 39,
         marks: 1,
         questionPrefix: "Q.19) ",
         questionSuffix: "     [MCQ]"

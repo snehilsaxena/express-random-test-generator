@@ -295,10 +295,22 @@ module.exports.pdf = async (itr) => {
                         bold: true
                     }
                 }
+                // watermark: { text: 'test watermark', color: 'black', opacity: 0.1, bold: true, italics: false, fontSize: 44 }
             });
 
             doc.pipe(fs.createWriteStream('./file-' + itr + '.pdf'));
             doc.end()
         }, 10000)
+
+        // let count = 1;
+        // for (let data of pdfData) {
+        //     console.log(data);
+        //     if (data['text'] && data['text'].includes("Q.")) {
+        //         const replaced = "Q." + count;
+        //         count += 1;
+        //         data['text'] = data['text'].replace("Q.", replaced);
+        //         console.log("in if ", data);
+        //     }
+        // }
     }
 }
